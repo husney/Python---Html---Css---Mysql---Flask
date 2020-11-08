@@ -78,6 +78,10 @@ arrayLetrasR.sort()
 print("sort() = ", arrayLetrasR)
 
 
+letras = ['e', 'd', 'c', 'b', 'a']
+print(letras)
+del letras[0]
+print(letras)
 
 
 #lista.clear()
