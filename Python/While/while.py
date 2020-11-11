@@ -6,7 +6,7 @@ while i <= 5: # condición
         i += 1
         continue
     else:
-        print(i)
+        print(i)  
     i += 1
     
 
