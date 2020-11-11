@@ -7,11 +7,16 @@
 
 lista = ["Santi", "Valentina", "Camila", "Sara"]
 
+edades = [1,20,21,22]
+
+for i in range(len(lista)):
+    print(lista[i], edades[i])
+
 for elemento in lista:
     print(elemento)
 
 print("----------------")
-
+ 
 palabra = "Una Palabra"
 
 for letra in palabra:
