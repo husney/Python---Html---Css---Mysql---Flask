@@ -72,7 +72,18 @@ print(next(resultados))
 print(next(resultados))
 
 
- 
+
+
+def evaluarEdad(edad):
+    
+    if edad <= 0 or edad >= 100:
+        raise ValueError("La edad no es valida")
+    if edad >0 and edad <= 18:
+        return "Puede entrar"
+    
+print(evaluarEdad(int(0))) 
+
+
 
 
 

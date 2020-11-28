@@ -39,3 +39,9 @@ def parametrosDiccionario(**kwargs):
 
 parametrosDiccionario(nombre = "Alejandra", apellido = "Aleja")
 
+def mi_recursiva(n):
+    print(n)
+    if(n > 0):
+        mi_recursiva(n -1)
+
+mi_recursiva(5)

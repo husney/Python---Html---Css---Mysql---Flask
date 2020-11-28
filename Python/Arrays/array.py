@@ -14,6 +14,7 @@ print(lista2.count(3))
 print("-----------------------")
 
 
+
 elmentsList1 = len(lista)
 elementsList2 = len(lista2)
 print(len(lista))
@@ -21,7 +22,11 @@ print(elementsList2)
 print("-------")
 print(len("Hola"))
 
+
 print("----------")
+
+
+
 
 print(lista[0])
 
