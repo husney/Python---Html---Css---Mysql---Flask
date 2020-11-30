@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link rel="stylesheet" href="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <style>
+            .m{
+                margin:40px 0;
+            }
+
+            .fl{
+                width: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <div class="m">
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre...">
+            </div>
+
+
+            <div class="m">
+                <label for="password">Contraseña: </label>
+                <input type="password">
+            </div>
+
+            <div class="m">
+                <p>Genero: </p>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="genero" value="M" id="masculino">
+
+                <label for="femenino">Femenino</label>
+                <input type="radio" name="genero" value="F" id="femenino">
+            </div>
+
+            <fieldset class="fl">
+                <legend>Paises</legend>
+                <div>
+                    <select id="pais" name="pais">
+                        <option value="Co">Colombia</option>
+                        <option value="Us">Estados Unidos</option>
+                        <option value="Ca">Canada</option>
+                        <option value="Su">Suiza</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <div>
+                <p>input submit</p>
+                <input type="submit" value="Enviar">
+            </div>
+
+            <div>
+                <p>Boton input submit</p>
+                <button type="submit">Enviar</button>
+            </div>
+
+        </form>
+
+        <div class="m">
+            <img src="http://placekitten.com/g/200/200">
+            <a href="https://google.com" target="_blank">Google</a>
+        </div>
+
+        <div>
+            <h2>Lista ordenada <b>OL</b></h2>
+            <ol>
+                <li>Primero</li>
+                <li>Segundo</li>
+                <li>Tercero</li>
+                <li>Cuarto</li>
+                <li>Quinto</li>
+            </ol>
+        </div>
+
+        <div>
+            <h2>Lista desordenada <b>UL</b></h2>
+            <li>Primero</li>
+            <li>Segundo</li>
+            <li>Tercero</li>
+            <li>Cuarto</li>
+            <li>Quinto</li>
+        </div>
+
+        <div>
+            <table border="">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Edad</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th colspan="3">Fin de la tabla</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td>Valentina</td>
+                        <td>Marin</td>
+                        <td>21</td>
+                    </tr>
+                    <tr>
+                        <td>Sara</td>
+                        <td>Orrego</td>
+                        <td>23</td>
+                    </tr>
+                    <tr>
+                        <td>Alejandra</td>
+                        <td>Duque</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Camila Calatraz</td>
+                        <td>23</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Alejandra</td>
+                        <td>Duque</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Sara</td>
+                        <td>20</td>                     
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+    </body>
+</html>
